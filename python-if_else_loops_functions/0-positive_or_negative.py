@@ -4,7 +4,7 @@ import random
 number = random.randint(-10, 10)
 if number == 0:
     print(f"{number} is zer")
-elif number % 2 == 0:
+elif number > 0:
     print(f"{number} is positive")
 else:
     print(f"{number} is negative")
