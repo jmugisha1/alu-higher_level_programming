@@ -3,7 +3,7 @@ import random
 number = random.randint(-10000, 10000)
 lst_dgt = None
 
-if  number > 0:
+if number > 0:
     lst_dgt = number % 10
 else:
     lst_dgt = -(abs(number) % 10)
