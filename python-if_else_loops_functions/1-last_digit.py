@@ -6,7 +6,7 @@ lst_dgt = None
 if  number > 0:
     lst_dgt = number % 10
 else:
-    lst_dgt = -(abs(number % 10))
+    lst_dgt = -(abs(number) % 10)
 
 if lst_dgt == 0:
     print(f"Last digit of {number} is {lst_dgt} and is 0")
