@@ -14,3 +14,4 @@ elif lst_dgt > 5:
     print(f"Last digit of {number} is {lst_dgt} and is greater than 5")
 elif lst_dgt < 6:
     print(f"Last digit of {number} is {lst_dgt} and is less than 6 and not 0")
+
