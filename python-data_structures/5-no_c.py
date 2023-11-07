@@ -1,4 +1,4 @@
-# !/usr/bin/python3
+#!/usr/bin/python3
 def no_c(my_string):
     list_no_c = []
     list_str = list(my_string)
