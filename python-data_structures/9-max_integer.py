@@ -7,4 +7,4 @@ def max_integer(my_list=[]):
                 max_value = item
         return max_value
     elif len(my_list) == 0:
-        return None
+        max_value = None
