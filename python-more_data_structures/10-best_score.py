@@ -11,7 +11,7 @@ def best_score(a_dictionary):
         if item > max_score_num:
             max_score_num = item
     
-    if max_score_list.count(max_score_num) > 1:
+    if max_score_list.count(max_score_num) > 1 or len(a_dictionary) == 0 or a_dictionary is None:
         return None
     else:
         for key, value in a_dictionary.items():
