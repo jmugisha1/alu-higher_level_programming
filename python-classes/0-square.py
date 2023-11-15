@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""Module to define a square class"""
+
 class Square():
-    def __init__(self):
-        pass
+    """Class to define a square"""
