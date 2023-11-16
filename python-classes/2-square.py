@@ -9,7 +9,7 @@ class Square:
         """this is a comment"""
         if type(size) == int and size > 0:
             self.__size = size
-        elif type(size) != int:
+        elif type(size) is not int:
             raise TypeError("size must be an integer")
         elif size < 0:
             raise ValueError("size must be >= 0")
