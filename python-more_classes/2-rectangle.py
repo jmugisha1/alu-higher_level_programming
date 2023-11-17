@@ -25,7 +25,7 @@ class Rectangle:
     @property
     def height(self):
         return self.__height
-    
+
     @height.setter
     def height(self, value):
         if type(value) is not int:
@@ -37,7 +37,7 @@ class Rectangle:
 
     def area(self):
         return self.__height * self.__width
-    
+
     def perimeter(self):
         if self.height == 0 or self.width == 0:
             return 0
