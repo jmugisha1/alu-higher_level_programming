@@ -5,8 +5,9 @@
 class Rectangle:
     """Represents a rectangle"""
 
-    def width(self, width):
+    def __init__(self, width, height):
         self.width = width
+        self.height = height
     
     @property
     def width(self):
@@ -20,9 +21,6 @@ class Rectangle:
             raise ValueError("width must be >= 0")
         else:
             self.__width = value
-    
-    def height(self, height):
-        self.height = height
     
     @property
     def height(self):
