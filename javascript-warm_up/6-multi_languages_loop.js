@@ -1,6 +1,6 @@
 #!/usr/bin/node
 const args = process.argv.slice(2);
 
-for (el in args) {
-  console.log(el);
+for (let i = 0; i < args.length; i++) {
+  console.log(el[i]);
 }
