@@ -9,5 +9,6 @@ if (num === undefined) {
     for (let rep = 1; rep <= num; rep++) {
       console.log('*');
     }
+    console.log('');
   }
 }
