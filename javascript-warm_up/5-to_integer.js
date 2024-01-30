@@ -4,7 +4,7 @@ const num = parseInt(args);
 
 if (num === undefined) {
   console.log('Not a number');
-} else if (NaN(num)) {
+} else if (isNaN(num)) {
   console.log('Not a number');
 } else {
   console.log(`My number: ${num}`);
