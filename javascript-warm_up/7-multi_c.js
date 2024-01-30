@@ -2,10 +2,10 @@
 const args = process.argv.slice(2);
 const num = parseInt(args);
 
-if (num === undefined || isNaN(num)) {
+if (num[0] === undefined) {
   console.log('Missing number of occurrences');
 } else {
-  for (let rep = 1; rep <= args; rep++) {
+  for (let rep = 1; rep <= args[0]; rep++) {
     console.log();
   }
 }
