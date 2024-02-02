@@ -15,4 +15,4 @@ class Rectangle {
     }
   }
 }
-module.exports = Rectangle.print();
+module.exports = Rectangle;
