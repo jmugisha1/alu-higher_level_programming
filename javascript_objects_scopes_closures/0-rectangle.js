@@ -1,4 +1,5 @@
 #!/usr/bin/node
-export default class Rectangle {
+class Rectangle {
   constructor() {}
 }
+module.exports = Rectangle;
