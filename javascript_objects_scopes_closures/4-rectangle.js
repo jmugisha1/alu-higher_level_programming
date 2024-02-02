@@ -20,7 +20,12 @@ class Rectangle {
   }
 
   double() {
-    return this.height * 2, this.width * 2;
+    for (let i = 0; i < this.height * 2; i++) {
+      for (let j = 0; j < this.width * 2; j++) {
+        process.stdout.write('X');
+      }
+      console.log('');
+    }
   }
 }
 module.exports = Rectangle;
