@@ -11,7 +11,7 @@ class Rectangle {
       for (let j = 0; j < this.width; j++) {
         process.stdout.write('x');
       }
-      console.log();
+      console.log('');
     }
   }
 }
