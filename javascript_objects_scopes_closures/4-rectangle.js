@@ -38,13 +38,4 @@ class Rectangle {
     }
   }
 }
-
-const r1 = new Rectangle(2, 3);
-console.log('Normal:');
-r1.print();
-console.log('Double:');
-r1.double();
-console.log('Rotate:');
-r1.rotate();
-
-// module.exports = Rectangle;
+module.exports = Rectangle;
