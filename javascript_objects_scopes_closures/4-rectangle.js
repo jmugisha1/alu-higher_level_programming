@@ -16,26 +16,12 @@ class Rectangle {
   }
 
   double() {
-    let doubleHeight = this.height * 2;
-    let doubleWidth = this.width * 2;
-
-    for (let i = 0; i < doubleHeight; i++) {
-      for (let j = 0; j < doubleWidth; j++) {
-        process.stdout.write('X');
-      }
-      console.log('');
-    }
+    this.height = this.height * 2;
+    this.width = this.width * 2;
   }
 
   rotate() {
-    let roHeight = this.height * 2;
-    let roWidth = this.width * 2;
-    for (let i = 0; i < roWidth; i++) {
-      for (let j = 0; j < roHeight; j++) {
-        process.stdout.write('X');
-      }
-      console.log('');
-    }
+    [this.height, (this.width = this.width), this.height];
   }
 }
 module.exports = Rectangle;
