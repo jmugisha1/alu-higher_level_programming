@@ -16,8 +16,9 @@ class Rectangle {
   }
 
   rotate() {
-    for (let i = 0; i < this.width; i++) {
-      for (let j = 0; j < this.height; j++) {
+    [this.width, this.height] = [this.height, this.width];
+    for (let i = 0; i < this.height; i++) {
+      for (let j = 0; j < this.width; j++) {
         process.stdout.write('X');
       }
       console.log('');
