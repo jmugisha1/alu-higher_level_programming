@@ -37,7 +37,6 @@ class Rectangle {
       }
       console.log('');
     }
-    console.log(this.height, this.width);
   }
 }
 module.exports = Rectangle;
