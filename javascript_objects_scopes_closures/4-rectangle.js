@@ -28,10 +28,8 @@ class Rectangle {
   }
 
   rotate() {
-    let doubleHeight = this.height * 2;
-    let doubleWidth = this.width * 2;
-    for (let i = 0; i < doubleWidth; i++) {
-      for (let j = 0; j < doubleHeight; j++) {
+    for (let i = 0; i < this.width; i++) {
+      for (let j = 0; j < this.height; j++) {
         process.stdout.write('X');
       }
       console.log('');
