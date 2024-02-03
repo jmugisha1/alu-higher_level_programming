@@ -28,12 +28,23 @@ class Rectangle {
   }
 
   rotate() {
-    for (let i = 0; i < this.width; i++) {
-      for (let j = 0; j < this.height; j++) {
+    let roHeight = this.height * 2;
+    let roWidth = this.width * 2;
+    for (let i = 0; i < roWidth; i++) {
+      for (let j = 0; j < roHeight; j++) {
         process.stdout.write('X');
       }
       console.log('');
     }
   }
 }
-module.exports = Rectangle;
+
+const r1 = new Rectangle(2, 3);
+console.log('Normal:');
+r1.print();
+console.log('Double:');
+r1.double();
+console.log('Rotate:');
+r1.rotate();
+
+// module.exports = Rectangle;
